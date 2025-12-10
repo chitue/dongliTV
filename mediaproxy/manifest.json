@@ -1,0 +1,31 @@
+{
+  "package": "mediaproxy",
+  "version": "1.0.5",
+  "description": "mediaproxy",
+  "created": "2025-12-06T20:29:55+0800",
+  "binaries": {
+    "arm64-v8a": {
+      "path": "http://127.0.0.1:9978/file/dp/bin/mediaproxy/mediaproxy-arm64",
+      "size": 2286696,
+      "sha256": "a5e0225545b23c7e36c59917bd730b746e12a1ad66a0a0aae62107ed9eecf0f4"
+    }
+    ,
+    "armeabi-v7a": {
+      "path": "http://127.0.0.1:9978/file/dp/bin/mediaproxy/mediaproxy-arm",
+      "size": 1757116,
+      "sha256": "525f4831ea8df0f9f6a9ffd63ce11ee5339f851a52c6b8f7e269a07c33ca5f4e"
+    }
+    ,
+    "x86_64": {
+      "path": "http://127.0.0.1:9978/file/dp/bin/mediaproxy/mediaproxy-x64",
+      "size": 2028404,
+      "sha256": "27567d050e0f4903516d6d815f155b52a0d7b344279101f7ae42789fb2ee66b3"
+    }
+    ,
+    "x86": {
+      "path": "http://127.0.0.1:9978/file/dp/bin/mediaproxy/mediaproxy-x86",
+      "size": 1941956,
+      "sha256": "4b90e12bab43d00666772e6b6ce3817d4955e2086442ba5338b685fb74c542f8"
+    }
+  }
+}
