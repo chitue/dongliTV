@@ -4,11 +4,11 @@ export default {
     const accept = request.headers.get("accept") || "";
     const ua = request.headers.get("user-agent") || "";
 
-    // 根目录访问
+    // 根目录或 home.html 访问
     if (url.pathname === "/" || url.pathname === "/home.html") {
       // 1. 浏览器访问主页
       if (ua.includes("Mozilla") && accept.includes("text/html")) {
-        return new Response("<h1>欢迎访问主页</h1>", {
+        return new Response("<h1>欢迎访问主页 (home.html)</h1>", {
           status: 200,
           headers: { "Content-Type": "text/html; charset=utf-8" }
         });
@@ -27,7 +27,7 @@ export default {
         return new Response("ASSETS binding not configured", { status: 500 });
       }
 
-      const apiEncRequest = new Request(`${url.origin}/api`);
+      const apiEncRequest = new Request(`${url.origin}/api.enc`);
       const response = await env.ASSETS.fetch(apiEncRequest);
 
       if (response.status === 200) {
