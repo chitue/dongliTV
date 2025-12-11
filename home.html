@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东篱 - 个人资源导航站</title>
+    <style>
+        :root {
+            --primary-color: #6a85b6; 
+            --bg-overlay: rgba(0, 0, 0, 0.7);
+            --glass-bg: rgba(255, 255, 255, 0.15);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --card-hover: rgba(255, 255, 255, 0.3);
+            --text-color: #ffffff;
+            --sub-text-color: #e0e0e0;
+            --toast-bg: rgba(0, 0, 0, 0.9);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            color: var(--text-color);
+            /* 这里使用一张高分辨率且带有景深效果的图片，以突出磨砂玻璃效果 */
+            background: url('https://picsum.photos/1920/1080?random=123') no-repeat center center fixed; 
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg-overlay);
+            z-index: -1;
+            backdrop-filter: blur(10px); /* 强化磨砂玻璃效果 */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px; /* 扩展最大宽度，适应资源站布局 */
+            padding: 20px;
+            margin-top: 50px; /* 顶部留空给时间 */
+            text-align: center;
+        }
+
+        /* --- 顶部时间显示 --- */
+        .time-display-area {
+            position: fixed;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            z-index: 50;
+        }
+
+        .clock-display {
+            font-size: 2.5rem;
+            font-weight: 300;
+            font-family: monospace;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            letter-spacing: 2px;
+        }
+
+        .date-display {
+            font-size: 0.9rem;
+            color: var(--sub-text-color);
+        }
+
+        /* --- 个人信息区域 --- */
+        .profile-section {
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid var(--glass-border);
+            margin-bottom: 10px;
+            transition: transform 0.5s;
+        }
+
+        .site-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        /* --- 签名/公告区域 (磨砂玻璃卡片) --- */
+        .announcement {
+            background: var(--glass-bg);
+            padding: 15px 25px;
+            border-radius: 15px;
+            border: 1px solid var(--glass-border);
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+            font-style: italic;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+        /* --- 资源卡片网格 --- */
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 30px 0 15px;
+            text-align: left;
+            padding-left: 10px;
+            border-left: 3px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: var(--glass-bg);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid var(--glass-border);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            background: var(--card-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-icon {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--text-color);
+            margin-bottom: 4px;
+        }
+
+        .card-desc {
+            font-size: 0.75rem;
+            color: var(--sub-text-color);
+            opacity: 0.8;
+            height: 30px; /* 限制高度 */
+            overflow: hidden;
+        }
+
+        /* --- 底部 --- */
+        .footer {
+            margin-top: 50px;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.5);
+            padding-bottom: 20px;
+        }
+
+        /* --- 复制成功提示 (Toast) --- */
+        .toast {
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--toast-bg);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 200;
+        }
+        .toast.show { 
+            opacity: 1; 
+            visibility: visible; 
+            top: 15%; /* 向上浮动一点 */
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            .clock-display { font-size: 2rem; }
+            .container { padding: 10px; margin-top: 100px; }
+            .grid { grid-template-columns: 1fr; } /* 手机端单列 */
+            .profile-section { margin-bottom: 20px; }
+            .announcement { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="time-display-area">
+        <div class="clock-display" id="clock">00:00:00</div>
+        <div class="date-display" id="date">正在加载...</div>
+    </div>
+
+    <div class="container">
+        <div class="profile-section">
+            <img src="https://q1.qlogo.cn/g?b=qq&nk=10001&s=640" alt="Avatar" class="avatar">
+            <h1 class="site-title">我的影视接口导航站</h1>
+        </div>
+
+        <div class="announcement">
+            欢迎来到本站！
+        </div>
+
+        <div class="section-title">📺 TVBox 核心接口</div>
+        <div class="grid">
+            
+            <div class="card" onclick="copyText('http://xn--z7x900a.com/', '肥猫接口')">
+                <span class="card-icon">🐱</span>
+                <div class="card-content">
+                    <div class="card-title">肥猫接口</div>
+                    <div class="card-desc">稳定可靠的主力接口，持续更新，推荐使用</div>
+                </div>
+            </div>
+
+            <div class="card" onclick="copyText('http://www.xn--4kq62z5rby2qupq9ub.top/tv', '王二小接口')">
+                <span class="card-icon">🐮</span>
+                <div class="card-content">
+                    <div class="card-title">王二小接口</div>
+                    <div class="card-desc">经典线路，本本分分，不割韭菜</div>
+                </div>
+            </div>
+
+            <div class="card" onclick="copyText('http://ok321.top/ok', 'OK佬接口')">
+                <span class="card-icon">⚙️</span>
+                <div class="card-content">
+                    <div class="card-title">OK接口</div>
+                    <div class="card-desc">OK影视天下第一，就是牛逼</div>
+                </div>
+            </div>
+            <div class="card" onclick="copyText('http://www.饭太硬.com/tv', '饭太硬接口')">
+                <span class="card-icon">🍚</span>
+                <div class="card-content">
+                    <div class="card-title">饭太硬接口</div>
+                    <div class="card-desc">饭太太太太太太硬，稳定。</div>
+                </div>
+            </div>
+            <div class="card" onclick="copyText('https://t.me/ufapkchat', 'TG 群组')">
+                <span class="card-icon">✈️</span>
+                <div class="card-content">
+                    <div class="card-title">加入 TG 群组</div>
+                    <div class="card-desc">获取最新通知和资源分享。</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-title">🛠️ 常用在线工具</div>
+        <div class="grid">
+            
+            <div class="card" onclick="window.open('https://github.com/FongMi/Release/tree/fongmi/apk', '_blank')">
+                <span class="card-icon">🔍</span>
+                <div class="card-content">
+                    <div class="card-title">影视 APP 下载</div>
+                    <div class="card-desc">最新的影视 App 下载地址</div>
+                </div>
+            </div>
+
+            <div class="card" onclick="window.open('http://z.qiqiv.cn/', '_blank')">
+                <span class="card-icon">📝</span>
+                <div class="card-content">
+                    <div class="card-title">配置编辑器</div>
+                    <div class="card-desc">在线配置 TVBox 接口文件</div>
+                </div>
+            </div>
+            
+            <div class="card" onclick="window.open('http://www.xn--sss604efuw.com/jm/', '_blank')">
+                <span class="card-icon">📝</span>
+                <div class="card-content">
+                    <div class="card-title">接口解密</div>
+                    <div class="card-desc">饭佬的接口解密挺好用</div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>2024-2025 Powered by Glassmorphism & Resources</p>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast">复制成功！</div>
+
+    <script>
+        // --- 1. 时间功能实现 ---
+        function updateTime() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            
+            // 更新时钟 (精确到秒)
+            document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+
+            // 更新日期 (格式：2025年12月10日 星期五)
+            const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+            document.getElementById('date').innerText = now.toLocaleDateString('zh-CN', options);
+        }
+
+        setInterval(updateTime, 1000);
+        updateTime();
+
+        // --- 2. 复制功能实现 ---
+        function copyText(text, name) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast(`✅ 已复制 ${name}`);
+            }).catch(() => {
+                // 降级处理
+                const input = document.createElement('textarea');
+                input.value = text;
+                document.body.appendChild(input);
+                input.select();
+                document.execCommand('copy');
+                document.body.removeChild(input);
+                showToast(`✅ 已复制 ${name}`);
+            });
+        }
+
+        // 显示 Toast 提示框
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.innerText = msg;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
