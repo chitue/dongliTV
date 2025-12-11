@@ -5,7 +5,7 @@ export default {
     const ua = request.headers.get("user-agent") || "";
 
     // 根目录访问
-    if (url.pathname === "/" || url.pathname === "/index.html") {
+    if (url.pathname === "/" || url.pathname === "/home.html") {
       // 1. 浏览器访问主页
       if (ua.includes("Mozilla") && accept.includes("text/html")) {
         return new Response("<h1>欢迎访问主页</h1>", {
