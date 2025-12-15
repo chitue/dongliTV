@@ -1,15 +1,18 @@
-# ====== 版本控制和文档 ======
+# ====== 版本控制和开发配置 ======
 .gitattributes          export-ignore
 .gitignore              export-ignore
 .github/                export-ignore
-README.md               export-ignore
-CHANGELOG.md            export-ignore
 
 # ====== 开发和测试文件 ======
 home.html               export-ignore
 wrangler.jsonc          export-ignore
 src/                    export-ignore
-api                     export-ignore      # 新增：排除 api 文件
+
+# ====== 排除 api 文件（多种方式尝试） ======
+api                     export-ignore
+./api                   export-ignore
+*api                    export-ignore
+/api                    export-ignore
 
 # ====== IDE和编辑器配置 ======
 .vscode/                export-ignore
