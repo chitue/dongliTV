@@ -19,6 +19,25 @@
                 "key": "engineSelection",
                 "icon": "",
                 "des": "切换引擎"
+            },
+            
+            {
+                "name": "凯速",
+                "key": "loginOrlogooutKStore",
+                "icon": "",
+                "des": "登录｜退出"
+            },
+            {
+                "name": "Cookie",
+                "key": "backupCookieToKStore",
+                "icon": "",
+                "des": "备份到凯速"
+            },
+            {
+                "name": "Cookie",
+                "key": "downloadCookieToLocal",
+                "icon": "",
+                "des": "从凯速下载到本地"
             }
         ]
     },
