@@ -12,24 +12,55 @@ jobs:
       contents: write
 
     steps:
+      # 1. 检出代码
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 2. 调试信息（可选）
       - name: Print Debug Info
         run: |
           echo "当前标签: ${{ github.ref_name }}"
           ls -la
 
+      # 3. 创建发布ZIP包（应用.gitattributes过滤）
       - name: Create ZIP
         run: |
           ZIP_NAME="dongliTV-${{ github.ref_name }}.zip"
           echo "正在创建压缩包: $ZIP_NAME"
           git archive -v --format=zip HEAD -o "$ZIP_NAME"
           ls -lh "$ZIP_NAME"
+          echo "RELEASE_ZIP=$ZIP_NAME" >> $GITHUB_ENV
 
+      # 4. 生成版本信息文件
+      - name: Generate version.json
+        run: |
+          TAG_NAME="${{ github.ref_name }}"
+          cat > version.json << EOF
+          {
+            "version": "$TAG_NAME",
+            "url": "https://github.com/chitue/dongliTV/releases/download/$TAG_NAME/dongliTV-$TAG_NAME.zip",
+            "notes": "https://github.com/chitue/dongliTV/releases/tag/$TAG_NAME",
+            "size": $(stat -c%s "${{ env.RELEASE_ZIP }}" 2>/dev/null || echo 0),
+            "sha256": "$(sha256sum "${{ env.RELEASE_ZIP }}" 2>/dev/null | cut -d' ' -f1 || echo '')"
+          }
+          EOF
+          echo "生成的 version.json 内容："
+          cat version.json
+
+      # 5. 提交版本文件到主分支（创建固定访问点）
+      - name: Commit version.json to main branch
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add version.json
+          git commit -m "chore: update version info to ${{ github.ref_name }}"
+          git push origin main
+
+      # 6. 创建GitHub Release并上传文件
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           generate_release_notes: true
           files: |
-            dongliTV-${{ github.ref_name }}.zip
+            ${{ env.RELEASE_ZIP }}
+            version.json
