@@ -24,53 +24,68 @@ jobs:
           ls -lh "$ZIP_NAME"
           echo "RELEASE_ZIP=$ZIP_NAME" >> $GITHUB_ENV
 
-      # 核心改变：使用 GitHub API 创建/更新 version.json
-      - name: Create or Update version.json via API
+      - name: Generate and Upload version.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG_NAME="${{ github.ref_name }}"
+          ZIP_FILE="${{ env.RELEASE_ZIP }}"
+
+          FILE_SIZE=$(stat -c%s "$ZIP_FILE")
+          FILE_SHA256=$(sha256sum "$ZIP_FILE" | cut -d' ' -f1)
+
+          VERSION_NAME="${TAG_NAME#v}"
+
+          if [[ $TAG_NAME =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            MAJOR=${BASH_REMATCH[1]}
+            MINOR=${BASH_REMATCH[2]}
+            PATCH=${BASH_REMATCH[3]}
+            VERSION_CODE=$(( MAJOR * 10000 + MINOR * 100 + PATCH ))
+          else
+            VERSION_CODE=$(( 1000000 + $(date +%s) ))
+          fi
+
           JSON_CONTENT=$(cat <<EOF
           {
-            "version": "$TAG_NAME",
-            "url": "https://github.com/chitue/dongliTV/releases/download/$TAG_NAME/dongliTV-$TAG_NAME.zip",
-            "notes": "https://github.com/chitue/dongliTV/releases/tag/$TAG_NAME"
+            "versionName": "$VERSION_NAME",
+            "versionCode": $VERSION_CODE,
+            "url": "https://github.com/chitue/dongliTV/releases/download/$TAG_NAME/$ZIP_FILE",
+            "size": $FILE_SIZE,
+            "sha256": "$FILE_SHA256"
           }
           EOF
           )
-          
-          # 对JSON内容进行Base64编码（API要求）
+          echo "📄 生成的 version.json 内容："
+          echo "$JSON_CONTENT"
+
           CONTENT_B64=$(echo "$JSON_CONTENT" | base64 | tr -d '\n')
-          
-          # 使用GitHub API获取文件当前SHA（如果存在）
+
           echo "获取 version.json 当前状态..."
           API_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/contents/version.json" || echo '{}')
-          
+
           SHA=$(echo "$API_RESPONSE" | grep -o '"sha": "[^"]*"' | cut -d'"' -f4)
-          
-          # 构建API请求JSON
+
           API_JSON=$(cat <<EOF
           {
-            "message": "chore: update version info to $TAG_NAME",
+            "message": "chore: 更新版本信息至 $TAG_NAME",
             "content": "$CONTENT_B64"
           }
           EOF
           )
-          
-          # 如果文件已存在，添加sha字段用于更新
+
           if [ -n "$SHA" ]; then
             API_JSON=$(echo "$API_JSON" | jq --arg sha "$SHA" '. + {sha: $sha}')
           fi
-          
-          # 创建或更新文件
-          echo "提交 version.json 到仓库..."
+
+          echo "通过API提交 version.json ..."
           curl -X PUT -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
+            -H "Content-Type: application/json" \
             -d "$API_JSON" \
             "https://api.github.com/repos/${{ github.repository }}/contents/version.json"
-          echo "✅ version.json 已更新"
+          echo "✅ version.json 已成功更新！"
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v1
