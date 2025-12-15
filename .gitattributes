@@ -6,9 +6,9 @@ README.md               export-ignore
 CHANGELOG.md            export-ignore
 
 # ====== 开发和测试文件 ======
-home.html               export-ignore      # 测试页面
-wrangler.jsonc          export-ignore      # Worker配置（不需要打包）
-src/                    export-ignore      # Worker源代码目录
+home.html               export-ignore
+wrangler.jsonc          export-ignore
+src/                    export-ignore
 
 # ====== IDE和编辑器配置 ======
 .vscode/                export-ignore
