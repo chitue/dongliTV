@@ -1,0 +1,40 @@
+name: Auto Create Named Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Create versioned ZIP
+        run: |
+          # 提取标签名（如 v1.2.3）
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          # 生成带版本号的文件名
+          OUTPUT_FILE="dongliTV-${TAG_NAME}.zip"
+          # 使用git archive应用.gitattributes规则
+          git archive --format=zip --output="$OUTPUT_FILE" HEAD
+          echo "ZIP_FILE=$OUTPUT_FILE" >> $GITHUB_ENV
+          
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+          files: |
+            ${{ env.ZIP_FILE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
