@@ -27,13 +27,15 @@ jobs:
           git archive --format=zip --output="$OUTPUT_FILE" HEAD
           echo "ZIP_FILE=$OUTPUT_FILE" >> $GITHUB_ENV
           
-      - name: Create GitHub Release
-        id: create_release
+      - name: Create or Update Release
         uses: softprops/action-gh-release@v1
         with:
           generate_release_notes: true
           draft: false
           prerelease: false
+          # 关键设置：替换现有资产文件
+          replace_assets: true
+          # 只上传我们自定义的ZIP，不保留自动生成的
           files: |
             ${{ env.ZIP_FILE }}
         env:
