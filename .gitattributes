@@ -9,6 +9,7 @@ CHANGELOG.md            export-ignore
 home.html               export-ignore
 wrangler.jsonc          export-ignore
 src/                    export-ignore
+api                     export-ignore      # 新增：排除 api 文件
 
 # ====== IDE和编辑器配置 ======
 .vscode/                export-ignore
