@@ -1,6 +1,5 @@
 20251215
-实现备份本地目录/storage/emulated/0/TVData/cookie/
-下面的cookie到凯速/TVData/cookie/
+实现备份本地目录/storage/emulated/0/TVData/cookie/下面的cookie到凯速/TVData/cookie/
 实现下载凯速/TVData/cookie/目录的cookie到本地目录/storage/emulated/0/TVData/cookie/
 
 20251214
@@ -22,7 +21,6 @@
 打包优化
 二进制API23 安卓6
 修复无法动态覆盖旧二进制
-
 
 20251126
 修复123登录
