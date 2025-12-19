@@ -2,11 +2,17 @@
     {
         "name": "通用",
         "list": [
+        {
+                "name": "ABI",
+                "key": "abiSelection",
+                "icon": "",
+                "des": "手动选择ABI"
+            },
             {
                 "name": "Go引擎",
                 "key": "mediaproxyProbe",
                 "icon": "",
-                "des": "探测"
+                "des": "状态"
             },
             {
                 "name": "Java引擎",
