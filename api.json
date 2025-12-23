@@ -225,6 +225,17 @@
             "ext": ""
         },
         {
+            "key": "song_1a48b",
+            "name": "🎤｜网络数据库KTV",
+            "type": 3,
+            "api": "csp_KTV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
             "key": "networkdb",
             "name": "🗄️｜网络数据库",
             "type": 3,
