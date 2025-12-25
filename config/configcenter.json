@@ -139,6 +139,29 @@
         ]
     },
     {
+        "name": "阿里云盘",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanAliCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "setAliCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setAliMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
         "name": "天翼云盘",
         "list": [
             {
