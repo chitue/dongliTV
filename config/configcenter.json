@@ -2,7 +2,7 @@
     {
         "name": "通用",
         "list": [
-        {
+            {
                 "name": "ABI",
                 "key": "abiSelection",
                 "icon": "",
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "name": "百度网盘",
+        "name": "百度",
         "list": [
             {
                 "name": "清除cookie",
@@ -93,53 +93,7 @@
         ]
     },
     {
-        "name": "UC网盘",
-        "list": [
-            {
-                "name": "清除Cookie",
-                "key": "cleanUcCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "设置Cookie",
-                "key": "setUcCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "多线程",
-                "key": "setUcMultiThread",
-                "icon": "",
-                "des": ""
-            }
-        ]
-    },
-    {
-        "name": "夸克网盘",
-        "list": [
-            {
-                "name": "清除cookie",
-                "key": "cleanQuarkCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "设置cookie",
-                "key": "setQuarkCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "多线程",
-                "key": "setQuarkMultiThread",
-                "icon": "",
-                "des": ""
-            }
-        ]
-    },
-    {
-        "name": "阿里云盘",
+        "name": "阿里",
         "list": [
             {
                 "name": "清除cookie",
@@ -162,7 +116,53 @@
         ]
     },
     {
-        "name": "天翼云盘",
+        "name": "UC",
+        "list": [
+            {
+                "name": "清除Cookie",
+                "key": "cleanUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置Cookie",
+                "key": "setUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setUcMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "夸克",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanQuarkCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "setQuarkCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setQuarkMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "天翼",
         "list": [
             {
                 "name": "清除cookie",
@@ -185,7 +185,7 @@
         ]
     },
     {
-        "name": "123云盘",
+        "name": "123",
         "list": [
             {
                 "name": "清除cookie",

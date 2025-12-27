@@ -4,12 +4,14 @@
 主入口
 file://dp/api.json
 采集站入口
-file://dp/caiji.json
+file://dp/cj.json
 py爬虫入口
 file://dp/py.json
+js爬虫入口
+file://dp/js.json
 
 本地包说明
-✔️支持本地包改名字
+✔️本地包支持改名字
 ✔️支持任义路径放置本地包
 ✔️推荐本地包根目录：/storage/emulated/0/dp/
 ✔️cookie固定保存目录：/storage/emulated/0/TVData/cookie
@@ -19,12 +21,19 @@ file://dp/py.json
 ✔️本地数据库需要指定自定义映射配置文件，具体映射参考示例配置
 https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/config/local_database_mapping.json
 ✔️网盘类播放需要配置中心提前设置cookie
-✔️cookie默认会存储到本地/storage/emulated/0/TVData/cookie
+✔️cookie默认会存储到本地/storage/emulated/0/TVData/cookie目录
 ✔️cookie云备份恢复通过配置凯速access_token可以将本地cookie存储到凯速直链云存储里面，实现多设备一键恢复cookie配置
 ✔️凯速access_token默认保存地址/storage/emulated/0/TVData/kstore_token.txt
 
 凯速access_token请到以下页面底部获取
 https://my.ksust.com/kstore.htm?aff=16151
+
+注意：
+网络数据库下载后请重启APP生效
+目前本地数据库仅支持直链播放
+
+
+网盘优先顺序个人推荐，百度，夸克，UC，阿里，天翼，123(每月20G流量)
 
 网盘分享站点
 立播夸克，UC盘，百度盘
