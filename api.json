@@ -25,24 +25,67 @@
             "ext": "./config/configcenter.json"
         },
         {
-            "key": "dytt",
-            "name": "🌌｜电影｜天堂",
-            "type": 1,
-            "api": "http://127.0.0.1:9978/proxy?do=dytt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 10
+            "key": "myuc",
+            "name": "🌆｜我的┃优囍",
+            "type": 3,
+            "api": "csp_MyUC",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
         },
         {
-            "key": "jianpian",
-            "name": "🎬｜贱片｜P2P",
+            "key": "myquark",
+            "name": "🌆｜我的┃夸氪",
             "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "./config/jianpian.json"
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "hide": 1,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "mybaidu",
+            "name": "🌆｜我的┃白渡",
+            "type": 3,
+            "api": "csp_MyBaiBu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "hide": 1,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "myali",
+            "name": "🌆｜我的┃阿篱",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "hide": 1,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
         },
         {
             "key": "glod",
@@ -78,12 +121,39 @@
             "ext": {}
         },
         {
+            "key": "jianpian",
+            "name": "🎬｜贱片｜P2P",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "./config/jianpian.json"
+        },
+        {
             "key": "Xb6v",
             "name": "🧲｜新6V｜磁力",
             "type": 3,
             "api": "csp_Xb6v",
             "searchable": 1,
             "filterable": 1
+        },
+        {
+            "key": "dytt",
+            "name": "🌌｜天堂｜采集",
+            "type": 1,
+            "api": "http://127.0.0.1:9978/proxy?do=dytt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "juheduanju",
+            "name": "🌟｜聚合｜短剧",
+            "type": 3,
+            "api": "csp_JuheShortDrama",
+            "changeable": 0
         },
         {
             "key": "樱花动漫",
@@ -106,13 +176,6 @@
                 "ratio": 1.433
             },
             "changeable": 1
-        },
-        {
-            "key": "juheduanju",
-            "name": "🌟｜聚合｜短剧",
-            "type": 3,
-            "api": "csp_JuheShortDrama",
-            "changeable": 0
         },
         {
             "key": "bilibili",
@@ -234,10 +297,10 @@
             "ext": ""
         },
         {
-            "key": "networkdb",
-            "name": "🗄️｜网络数据库集合",
+            "key": "song_1a48b",
+            "name": "🗄️｜网络数据库KTV",
             "type": 3,
-            "api": "csp_NetworkDB",
+            "api": "csp_KTV",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -245,10 +308,10 @@
             "ext": ""
         },
         {
-            "key": "song_1a48b",
-            "name": "🎤｜网络数据库KTV",
+            "key": "networkdb",
+            "name": "🗄️｜网络数据库合集",
             "type": 3,
-            "api": "csp_KTV",
+            "api": "csp_NetworkDB",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
