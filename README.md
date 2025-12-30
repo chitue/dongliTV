@@ -1,7 +1,11 @@
 注意：仅交流学习
     
 影视或者OK影视点播地址填写
-主入口
+
+在线接口
+https://chigua.eu.org
+
+本地包主入口
 file://dp/api.json
 采集站入口
 file://dp/cj.json
