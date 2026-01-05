@@ -122,6 +122,23 @@
             "changeable": 1
         },
         {
+            "key": "tingchina",
+            "name": "🎧｜听书｜大全",
+            "type": 3,
+            "api": "csp_TingChina",
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "wuwei",
+            "name": "🎧｜五维｜听书",
+            "type": 3,
+            "api": "csp_WuWeiTing",
+            "changeable": 0,
+            "filterable": 1
+        },
+        
+        {
             "key": "蜻蜓FM",
             "name": "📻｜蜻蜓┃FM",
             "type": 3,
