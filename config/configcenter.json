@@ -41,25 +41,65 @@
         ]
     },
     {
-        "name": "数据库",
+        "name": "哔哩",
         "list": [
             {
-                "name": "本地数据库映射配置",
-                "key": "localDatabaseMapping",
+                "name": "清除cookie",
+                "key": "cleanBilibiliCookie",
                 "icon": "",
-                "des": "设置"
+                "des": ""
             },
             {
-                "name": "网络数据库映射配置",
-                "key": "networkDatabaseMapping",
+                "name": "设置cookie",
+                "key": "setBilibiliCookie",
                 "icon": "",
-                "des": "设置"
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "夸氪",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanQuarkCookie",
+                "icon": "",
+                "des": ""
             },
             {
-                "name": "网络数据库",
-                "key": "networkDatabaseManagement",
+                "name": "设置cookie",
+                "key": "setQuarkCookie",
                 "icon": "",
-                "des": "管理"
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setQuarkMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "优囍",
+        "list": [
+            {
+                "name": "清除Cookie",
+                "key": "cleanUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置Cookie",
+                "key": "setUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setUcMultiThread",
+                "icon": "",
+                "des": ""
             }
         ]
     },
@@ -110,52 +150,6 @@
         ]
     },
     {
-        "name": "优囍",
-        "list": [
-            {
-                "name": "清除Cookie",
-                "key": "cleanUcCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "设置Cookie",
-                "key": "setUcCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "多线程",
-                "key": "setUcMultiThread",
-                "icon": "",
-                "des": ""
-            }
-        ]
-    },
-    {
-        "name": "夸氪",
-        "list": [
-            {
-                "name": "清除cookie",
-                "key": "cleanQuarkCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "设置cookie",
-                "key": "setQuarkCookie",
-                "icon": "",
-                "des": ""
-            },
-            {
-                "name": "多线程",
-                "key": "setQuarkMultiThread",
-                "icon": "",
-                "des": ""
-            }
-        ]
-    },
-    {
         "name": "天懿",
         "list": [
             {
@@ -198,6 +192,29 @@
                 "key": "set123MultiThread",
                 "icon": "",
                 "des": ""
+            }
+        ]
+    },
+    {
+        "name": "数据库",
+        "list": [
+            {
+                "name": "本地数据库映射配置",
+                "key": "localDatabaseMapping",
+                "icon": "",
+                "des": "设置"
+            },
+            {
+                "name": "网络数据库映射配置",
+                "key": "networkDatabaseMapping",
+                "icon": "",
+                "des": "设置"
+            },
+            {
+                "name": "网络数据库",
+                "key": "networkDatabaseManagement",
+                "icon": "",
+                "des": "管理"
             }
         ]
     }
