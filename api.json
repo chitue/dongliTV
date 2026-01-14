@@ -207,7 +207,7 @@
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
-            "ext": "https://www.libvio.link"
+            "ext": "https://www.libvio.mov"
         },
         {
             "key": "KuaKeS",
@@ -542,7 +542,7 @@
                 "ratio": 1.597
             }
         },
-          {
+        {
             "key": "哔哩影视",
             "name": "🌈｜哔哩｜影视",
             "type": 3,
@@ -560,7 +560,6 @@
                 "cookie": ""
             }
         },
-      
         {
             "key": "驿站",
             "name": "🎃｜驿站丨APP",
@@ -598,81 +597,6 @@
                 "dataIv": "2SWSPFxugBLPPOKo",
                 "version": "120"
             }
-        },
-        {
-            "key": "myuc",
-            "name": "🌆｜我的┃优囍",
-            "type": 3,
-            "api": "csp_MyUC",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
-        },
-        {
-            "key": "myquark",
-            "name": "🌆｜我的┃夸氪",
-            "type": 3,
-            "api": "csp_MyQuark",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
-        },
-        {
-            "key": "mybaidu",
-            "name": "🌆｜我的┃百度",
-            "type": 3,
-            "api": "csp_MyBaiDu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
-        },
-        {
-            "key": "myali",
-            "name": "🌆｜我的┃阿里",
-            "type": 3,
-            "api": "csp_MyAli",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
-        },
-        {
-            "key": "mytianyi",
-            "name": "🌆｜我的┃天懿",
-            "type": 3,
-            "api": "csp_MyTianYi",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
         },
         {
             "key": "push_agent",
@@ -724,6 +648,82 @@
             "changeable": 0,
             "filterable": 1,
             "ext": ""
+        },
+        {
+            "key": "myuc",
+            "name": "🌆｜我的┃优囍",
+            "type": 3,
+            "api": "csp_MyUC",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "myquark",
+            "name": "🌆｜我的┃夸氪",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30,
+            "ext": "./config/myquark.json"
+        },
+        {
+            "key": "mybaidu",
+            "name": "🌆｜我的┃百度",
+            "type": 3,
+            "api": "csp_MyBaiDu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "myali",
+            "name": "🌆｜我的┃阿里",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "mytianyi",
+            "name": "🌆｜我的┃天懿",
+            "type": 3,
+            "api": "csp_MyTianYi",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
         },
         {
             "key": "商店",
