@@ -185,21 +185,6 @@
             }
         },
         {
-            "key": "小飒",
-            "name": "💗｜小飒｜网盘",
-            "type": 3,
-            "api": "csp_MacCMS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "site": [
-                    "http://xsayang.fun:12512"
-                ]
-            }
-        },
-        {
             "key": "Libvio",
             "name": "💗｜立播｜网盘",
             "type": 3,
