@@ -751,7 +751,8 @@
             "style": {
                 "type": "list"
             },
-            "timeout": 30
+            "timeout": 30,
+            "ext": "./config/myali.json"
         },
         {
             "key": "mytianyi",
@@ -1006,9 +1007,9 @@
         "mgtv",
         "wasu",
         "bilibili",
-         "leshi",
+        "leshi",
         "renrenmi",
-         "migu",
+        "migu",
         "B站(解析)",
         "B站(AVC)",
         "B站(HEVC)",
