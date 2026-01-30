@@ -1124,6 +1124,14 @@
     ],
     "lives": [
         {
+            "name": "咪咕",
+            "type": "0",
+            "pass": true,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "冰茶",
             "type": 0,
             "playerType": 2,
@@ -1145,6 +1153,14 @@
             "url": "http://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "🧱YouTube🧱",
+            "type": 1,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u",
+            "epg": "https://epg.tv.darwinchow.com/epg.xml.gz,https://p.xbta.cc/https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz,https://epg.iill.top/epg.xml",
+            "logo": "https://live.404003.xyz/LOGO/{name}.png",
+            "playerType": 2
         }
     ],
     "parses": [
