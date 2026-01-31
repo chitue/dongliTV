@@ -243,16 +243,6 @@
             "changeable": 0
         },
         {
-            "key": "4k指南",
-            "name": "💗｜指南｜网盘",
-            "type": 3,
-            "api": "csp_FourKZn",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
-        },
-        {
             "key": "glod",
             "name": "👑｜金牌 | 影视",
             "type": 3,
