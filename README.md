@@ -12,13 +12,12 @@ https://chigua.eu.org
 https://16151.kstore.space
 
 本地包主入口
-file://dp/api.json
-采集站入口
-file://dp/cj.json
+file://本地包名/api.json
+
 py爬虫入口
-file://dp/py.json
+file://本地包名/py.json
 js爬虫入口
-file://dp/js.json
+file://本地包名/js.json
 
 本地包说明
 ✔️本地包支持改名字，例如：file://dongli/api.json
