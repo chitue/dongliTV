@@ -26,6 +26,95 @@
             "ext": "./config/configcenter.json"
         },
         {
+            "key": "QD4K",
+            "name": "🌇｜团夕｜直播",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_AppV2P1",
+            "playerType": 2,
+            "ext": {
+                "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "xingying",
+            "name": "🌇｜星影｜直播",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": {
+                "site": "http://110.81.153.7:1963/get.txt",
+                "dataKey": "k7L9mQ2xR4pW8n88",
+                "dataIv": "k7L9mQ2xR4pW8n88",
+                "version": "2"
+            }
+        },
+        {
+            "key": "Huya",
+            "name": "🌇｜虎牙｜直播",
+            "type": 3,
+            "api": "csp_Huya",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Douyu",
+            "name": "🌇｜斗鱼｜直播",
+            "type": 3,
+            "api": "csp_Douyu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "KuaiShou",
+            "name": "🌇｜快手｜直播",
+            "type": 3,
+            "api": "csp_KuaiShou",
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "BiliLive",
+            "name": "🌇｜哔哩｜直播",
+            "type": 3,
+            "api": "csp_BiliLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
             "key": "wogg",
             "name": "💗｜玩偶｜网盘",
             "type": 3,
@@ -532,81 +621,6 @@
             "api": "csp_WuWeiTing",
             "changeable": 0,
             "filterable": 1
-        },
-        {
-            "key": "xingying",
-            "name": "✨｜电视｜直播",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": {
-                "site": "http://110.81.153.7:1963/get.txt",
-                "dataKey": "k7L9mQ2xR4pW8n88",
-                "dataIv": "k7L9mQ2xR4pW8n88",
-                "version": "2"
-            }
-        },
-        {
-            "key": "Huya",
-            "name": "✨｜虎牙｜直播",
-            "type": 3,
-            "api": "csp_Huya",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "Douyu",
-            "name": "✨｜斗鱼｜直播",
-            "type": 3,
-            "api": "csp_Douyu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "KuaiShou",
-            "name": "✨｜快手｜直播",
-            "type": 3,
-            "api": "csp_KuaiShou",
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "BiliLive",
-            "name": "✨｜哔哩｜直播",
-            "type": 3,
-            "api": "csp_BiliLive",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
         },
         {
             "key": "bilibili",
@@ -1294,6 +1308,15 @@
             "url": "http://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "日后",
+            "type": 0,
+            "url": "http://rihou.cc:555/gggg.nzk",
+            "playerType": 2,
+            "ua": "okhttp/3",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
         },
         {
             "name": "🧱YouTube🧱",
