@@ -373,6 +373,20 @@
             }
         },
         {
+            "key": "火锅",
+            "name": "💛｜火锅｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e",
+                "ua": "Dart/3.5 (dart:io)"
+            }
+        },
+        {
             "key": "爱盈",
             "name": "💛｜爱盈｜APP",
             "type": 3,
@@ -477,17 +491,6 @@
             "ext": ""
         },
         {
-            "key": "樱花动漫",
-            "name": "💙｜樱花｜动漫",
-            "type": 3,
-            "api": "csp_YHDM",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },
-        {
             "key": "CNTV",
             "name": "💙｜央视｜综合",
             "type": 3,
@@ -504,6 +507,15 @@
             "type": 3,
             "api": "csp_QingTing",
             "ext": ""
+        },
+        {
+            "key": "AiWan",
+            "name": "💙｜爱玩｜音乐",
+            "type": 3,
+            "api": "csp_AiWan",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 1
         },
         {
             "key": "tingchina",
@@ -808,6 +820,113 @@
             "gridview": 3,
             "style": {
                 "type": "list"
+            }
+        },
+        {
+            "key": "樱花动漫",
+            "name": "💜｜樱花｜动漫",
+            "type": 3,
+            "api": "csp_YHDM",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },
+        {
+            "key": "云屋动漫",
+            "name": "💜｜云屋｜动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.yunwuee.icu",
+                "dataKey": "ygcnb9bdcmb8aeiw",
+                "dataIv": "ygcnb9bdcmb8aeiw"
+            }
+        },
+        {
+            "key": "丫丫动漫",
+            "name": "💜｜丫丫｜动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://tv.yy-fun.cc",
+                "dataKey": "qkxnwkfjwpcnwycl",
+                "dataIv": "qkxnwkfjwpcnwycl"
+            }
+        },
+        {
+            "key": "方舟动漫",
+            "name": "💜｜方舟丨动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.cyfz.vip",
+                "dataKey": "e72cdfd629e8895d",
+                "dataIv": "e72cdfd629e8895d"
+            }
+        },
+        {
+            "key": "元咲动漫",
+            "name": "💜｜元咲丨动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://cic.aicg.fun",
+                "dataKey": "2c4h36abd96se10u",
+                "dataIv": "2c4h36abd96se10u"
+            }
+        },
+        {
+            "key": "番薯动漫",
+            "name": "💜｜番薯丨动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://new.app.bytegooty.com",
+                "dataKey": "N4yj7l7xKxHF4*gz",
+                "dataIv": "N4yj7l7xKxHF4*gz"
+            }
+        },
+        {
+            "key": "曼波动漫",
+            "name": "💜｜曼波｜动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.omofun1.top",
+                "dataKey": "66dc309cbeeca454",
+                "dataIv": "66dc309cbeeca454"
+            }
+        },
+        {
+            "key": "咕咕动漫",
+            "name": "💜｜咕咕｜动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.gugu3.com",
+                "dataKey": "nKfZ8KX6JTNWRzTD",
+                "dataIv": "nKfZ8KX6JTNWRzTD"
+            }
+        },
+        {
+            "key": "米饭动漫",
+            "name": "💜｜米饭｜动漫",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://get.mymifun.com",
+                "dataKey": "GETMIFUNGEIMIFUN",
+                "dataIv": "GETMIFUNGEIMIFUN"
             }
         },
         {
