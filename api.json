@@ -424,19 +424,6 @@
             }
         },
         {
-            "key": "魔方",
-            "name": "💛｜魔方｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://snysw.xyz/mf4kzs327.txt",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321"
-            }
-        },
-        {
             "key": "茉莉",
             "name": "💛｜茉莉｜APP",
             "type": 3,
@@ -942,6 +929,15 @@
                 "dataKey": "GETMIFUNGEIMIFUN",
                 "dataIv": "GETMIFUNGEIMIFUN"
             }
+        },
+        {
+            "key": "DmBus",
+            "name": "💜｜巴士｜动漫",
+            "type": 3,
+            "api": "csp_DmBus",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 1
         },
         {
             "key": "push_agent",
