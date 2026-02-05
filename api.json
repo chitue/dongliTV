@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Douban",
-            "name": "📚｜豆瓣｜推荐",
+            "name": "🌀｜剑澜｜青萍",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -14,7 +14,7 @@
         },
         {
             "key": "配置",
-            "name": "🔨｜配置｜中心",
+            "name": "⚔️｜配置｜中心",
             "type": 3,
             "api": "csp_ConfigCenter",
             "searchable": 0,
@@ -411,19 +411,6 @@
             }
         },
         {
-            "key": "剧梦",
-            "name": "💛｜剧梦｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.jumengwu.com",
-                "dataKey": "1f0a873caf2550a5",
-                "dataIv": "1f0a873caf2550a5"
-            }
-        },
-        {
             "key": "茉莉",
             "name": "💛｜茉莉｜APP",
             "type": 3,
@@ -516,6 +503,15 @@
             "filterable": 1
         },
         {
+            "key": "XinggeDJ",
+            "name": "🌟｜星阁｜短剧",
+            "type": 3,
+            "api": "csp_XinggeDJ",
+            "searchable": 0,
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
             "key": "HeMa",
             "name": "🌟｜盒马｜短剧",
             "type": 3,
@@ -544,7 +540,7 @@
         },
         {
             "key": "jianpian",
-            "name": "💙｜荐片｜P2P",
+            "name": "♦｜荐片｜P2P",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -553,7 +549,7 @@
         },
         {
             "key": "Xb6v",
-            "name": "💙｜新6V｜磁力",
+            "name": "♦｜新6V｜磁力",
             "type": 3,
             "api": "csp_Xb6v",
             "searchable": 1,
@@ -561,14 +557,14 @@
         },
         {
             "key": "xiqu",
-            "name": "💙｜戏曲┃大全",
+            "name": "♦｜戏曲┃大全",
             "type": 3,
             "api": "csp_Xiqu",
             "ext": ""
         },
         {
             "key": "CNTV",
-            "name": "💙｜央视｜综合",
+            "name": "♦｜央视｜综合",
             "type": 3,
             "api": "csp_CntvSpider",
             "style": {
@@ -579,14 +575,14 @@
         },
         {
             "key": "蜻蜓FM",
-            "name": "💙｜蜻蜓┃FM",
+            "name": "♦｜蜻蜓┃广播",
             "type": 3,
             "api": "csp_QingTing",
             "ext": ""
         },
         {
             "key": "AiWan",
-            "name": "💙｜爱玩｜音乐",
+            "name": "♦｜爱玩｜音乐",
             "type": 3,
             "api": "csp_AiWan",
             "searchable": 1,
@@ -595,7 +591,7 @@
         },
         {
             "key": "tingchina",
-            "name": "🎧｜海盗｜听书",
+            "name": "📚｜海盗｜听书",
             "type": 3,
             "api": "csp_TingChina",
             "changeable": 0,
@@ -603,7 +599,7 @@
         },
         {
             "key": "wuwei",
-            "name": "🎧｜六月｜听书",
+            "name": "📚｜六月｜听书",
             "type": 3,
             "api": "csp_WuWeiTing",
             "changeable": 0,
@@ -825,7 +821,7 @@
         },
         {
             "key": "樱花动漫",
-            "name": "💜｜樱花｜动漫",
+            "name": "🌸｜樱花｜动漫",
             "type": 3,
             "api": "csp_YHDM",
             "style": {
@@ -835,20 +831,8 @@
             "changeable": 1
         },
         {
-            "key": "云屋动漫",
-            "name": "💜｜云屋｜动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.yunwuee.icu",
-                "dataKey": "ygcnb9bdcmb8aeiw",
-                "dataIv": "ygcnb9bdcmb8aeiw"
-            }
-        },
-        {
             "key": "丫丫动漫",
-            "name": "💜｜丫丫｜动漫",
+            "name": "🌸｜丫丫｜动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -860,7 +844,7 @@
         },
         {
             "key": "方舟动漫",
-            "name": "💜｜方舟丨动漫",
+            "name": "🌸｜方舟丨动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -872,7 +856,7 @@
         },
         {
             "key": "元咲动漫",
-            "name": "💜｜元咲丨动漫",
+            "name": "🌸｜元咲丨动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -884,7 +868,7 @@
         },
         {
             "key": "番薯动漫",
-            "name": "💜｜番薯丨动漫",
+            "name": "🌸｜番薯丨动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -896,7 +880,7 @@
         },
         {
             "key": "曼波动漫",
-            "name": "💜｜曼波｜动漫",
+            "name": "🌸｜曼波｜动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -908,7 +892,7 @@
         },
         {
             "key": "咕咕动漫",
-            "name": "💜｜咕咕｜动漫",
+            "name": "🌸｜咕咕｜动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -920,7 +904,7 @@
         },
         {
             "key": "米饭动漫",
-            "name": "💜｜米饭｜动漫",
+            "name": "🌸｜米饭｜动漫",
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
@@ -932,7 +916,7 @@
         },
         {
             "key": "DmBus",
-            "name": "💜｜巴士｜动漫",
+            "name": "🌸｜巴士｜动漫",
             "type": 3,
             "api": "csp_DmBus",
             "searchable": 1,
@@ -950,47 +934,6 @@
             "timeout": 60
         },
         {
-            "key": "本地文件",
-            "name": "🖤｜本地｜文件",
-            "type": 3,
-            "searchable": 0,
-            "changeable": 0,
-            "api": "csp_Local"
-        },
-        {
-            "key": "localdb",
-            "name": "🖤｜本地数据库",
-            "type": 3,
-            "api": "csp_LocalDB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": ""
-        },
-        {
-            "key": "song_1a48b",
-            "name": "🖤｜网络数据库KTV",
-            "type": 3,
-            "api": "csp_KTV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": ""
-        },
-        {
-            "key": "networkdb",
-            "name": "🖤｜网络数据库合集",
-            "type": 3,
-            "api": "csp_NetworkDB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": ""
-        },
-        {
             "key": "急救教学",
             "name": "🚑｜急救｜教学",
             "type": 3,
@@ -1003,6 +946,47 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1"
+        },
+        {
+            "key": "本地文件",
+            "name": "🗂️｜本地｜文件",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 0,
+            "api": "csp_Local"
+        },
+        {
+            "key": "localdb",
+            "name": "🗄️｜本地数据库",
+            "type": 3,
+            "api": "csp_LocalDB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "song_1a48b",
+            "name": "🗄️｜网络数据库KTV",
+            "type": 3,
+            "api": "csp_KTV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "networkdb",
+            "name": "🗄️｜网络数据库合集",
+            "type": 3,
+            "api": "csp_NetworkDB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
         },
         {
             "key": "myuc",
@@ -1098,7 +1082,7 @@
         },
         {
             "key": "TgAliSearch",
-            "name": "💝｜夸克｜TG搜",
+            "name": "㊣｜夸克｜TG搜",
             "type": 3,
             "api": "csp_TgSearch",
             "searchable": 1,
@@ -1112,7 +1096,7 @@
         },
         {
             "key": "TgbaiduSearch",
-            "name": "💝｜百度｜TG搜",
+            "name": "㊣｜百度｜TG搜",
             "type": 3,
             "api": "csp_TgSearch",
             "searchable": 1,
@@ -1126,7 +1110,7 @@
         },
         {
             "key": "Tg123Search",
-            "name": "💝｜123盘｜TG搜",
+            "name": "㊣｜123｜TG搜",
             "type": 3,
             "api": "csp_TgSearch",
             "searchable": 1,
@@ -1140,7 +1124,7 @@
         },
         {
             "key": "Tg189Search",
-            "name": "💝｜天翼｜TG搜",
+            "name": "㊣｜天翼｜TG搜",
             "type": 3,
             "api": "csp_TgSearch",
             "searchable": 1,
@@ -1154,7 +1138,7 @@
         },
         {
             "key": "PanSouQuark",
-            "name": "💖｜夸克┃盘搜",
+            "name": "㊣｜夸克┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1169,7 +1153,7 @@
         },
         {
             "key": "PanSouUc",
-            "name": "💖｜优囍┃盘搜",
+            "name": "㊣｜优囍┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1184,7 +1168,7 @@
         },
         {
             "key": "PanSouAli",
-            "name": "💖｜阿里┃盘搜",
+            "name": "㊣｜阿里┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1199,7 +1183,7 @@
         },
         {
             "key": "PanSouBaidu",
-            "name": "💖｜百度┃盘搜",
+            "name": "㊣｜百度┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1214,7 +1198,7 @@
         },
         {
             "key": "PanSou123",
-            "name": "💖｜123┃盘搜",
+            "name": "㊣｜123┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1229,7 +1213,7 @@
         },
         {
             "key": "PanSou189",
-            "name": "💖｜天翼┃盘搜",
+            "name": "㊣｜天翼┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1244,7 +1228,7 @@
         },
         {
             "key": "PanSou139",
-            "name": "💖｜移动┃盘搜",
+            "name": "㊣｜移动┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1259,7 +1243,7 @@
         },
         {
             "key": "PanSouMagnet",
-            "name": "💖｜磁力┃盘搜",
+            "name": "㊣｜磁力┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
