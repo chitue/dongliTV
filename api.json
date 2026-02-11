@@ -484,17 +484,6 @@
             }
         },
         {
-            "key": "奇奇",
-            "name": "💛｜奇奇｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
-                "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg"
-            }
-        },
-        {
             "key": "juheduanju",
             "name": "🌟｜聚合｜短剧",
             "type": 3,
@@ -525,15 +514,6 @@
             "name": "🌟｜剧王｜短剧",
             "type": 3,
             "api": "csp_JuWang",
-            "searchable": 0,
-            "changeable": 0,
-            "filterable": 1
-        },
-        {
-            "key": "TianQuan",
-            "name": "🌟｜甜圈｜短剧",
-            "type": 3,
-            "api": "csp_TianQuan",
             "searchable": 0,
             "changeable": 0,
             "filterable": 1
@@ -1259,6 +1239,15 @@
     ],
     "lives": [
         {
+            "name": "日后",
+            "type": 0,
+            "url": "http://rihou.cc:555/gggg.nzk",
+            "playerType": 2,
+            "ua": "okhttp/3",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
+        },
+        {
             "name": "咪咕",
             "type": "0",
             "pass": true,
@@ -1288,15 +1277,6 @@
             "url": "http://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "日后",
-            "type": 0,
-            "url": "http://rihou.cc:555/gggg.nzk",
-            "playerType": 2,
-            "ua": "okhttp/3",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-            "logo": "https://epg.112114.eu.org/logo/{name}.png"
         },
         {
             "name": "🧱YouTube🧱",
