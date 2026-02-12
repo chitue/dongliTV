@@ -340,21 +340,7 @@
             "changeable": 1,
             "ext": {}
         },
-        {
-            "key": "pingguo",
-            "name": "🧡｜苹果｜影视",
-            "type": 3,
-            "api": "csp_PingGuo",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "siteUrl": "http://asp.xpgtv.com",
-                "filterKeywords": [
-                    "及时雨",
-                    "及時雨"
-                ]
-            }
-        },
+        
         {
             "key": "guazi",
             "name": "🧡｜瓜子 | 影视",
@@ -491,15 +477,7 @@
             "changeable": 0,
             "filterable": 1
         },
-        {
-            "key": "XinggeDJ",
-            "name": "🌟｜星阁｜短剧",
-            "type": 3,
-            "api": "csp_XinggeDJ",
-            "searchable": 0,
-            "changeable": 0,
-            "filterable": 1
-        },
+        
         {
             "key": "HeMa",
             "name": "🌟｜盒马｜短剧",
