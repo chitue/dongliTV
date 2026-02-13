@@ -26,20 +26,6 @@
             "ext": "./config/configcenter.json"
         },
         {
-            "key": "QD4K",
-            "name": "🌇｜团夕｜直播",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_AppV2P1",
-            "playerType": 2,
-            "ext": {
-                "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
             "key": "xingying",
             "name": "🌇｜星影｜直播",
             "type": 3,
@@ -340,7 +326,6 @@
             "changeable": 1,
             "ext": {}
         },
-        
         {
             "key": "guazi",
             "name": "🧡｜瓜子 | 影视",
@@ -436,6 +421,45 @@
             }
         },
         {
+            "key": "魔方",
+            "name": "💛｜魔方｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://www.613mf4k12.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321"
+            }
+        },
+        {
+            "key": "缘梦",
+            "name": "💛｜缘梦｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://165.99.42.137:5432",
+                "dataKey": "1234567890987654",
+                "dataIv": "1234567890987654"
+            }
+        },
+        {
+            "key": "王子",
+            "name": "💛｜王子｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.95112475.xyz",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6"
+            }
+        },
+        {
             "key": "爱盈",
             "name": "💛｜爱盈｜APP",
             "type": 3,
@@ -477,7 +501,6 @@
             "changeable": 0,
             "filterable": 1
         },
-        
         {
             "key": "HeMa",
             "name": "🌟｜盒马｜短剧",
@@ -494,6 +517,16 @@
             "api": "csp_JuWang",
             "searchable": 0,
             "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "七星短剧",
+            "name": "🌟丨七星丨短剧",
+            "type": 3,
+            "api": "https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
             "filterable": 1
         },
         {
@@ -1226,6 +1259,13 @@
             "logo": "https://epg.112114.eu.org/logo/{name}.png"
         },
         {
+            "name": "宫殿",
+            "type": 0,
+            "url": "https://gongdian.top/tv/iptv",
+            "playerType": 1,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+        },
+        {
             "name": "咪咕",
             "type": "0",
             "pass": true,
@@ -1241,14 +1281,6 @@
             "ua": "bingcha/1.1 (mianfeifenxiang) "
         },
         {
-            "name": "电视直播",
-            "type": "0",
-            "pass": true,
-            "url": "http://gh-proxy.org/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
             "name": "EPG直播",
             "type": "0",
             "pass": true,
@@ -1257,12 +1289,12 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "🧱YouTube🧱",
-            "type": 1,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u",
-            "epg": "https://epg.tv.darwinchow.com/epg.xml.gz,https://p.xbta.cc/https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz,https://epg.iill.top/epg.xml",
-            "logo": "https://live.404003.xyz/LOGO/{name}.png",
-            "playerType": 2
+            "name": "电视直播",
+            "type": "0",
+            "pass": true,
+            "url": "http://gh-proxy.org/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
     "parses": [
@@ -1280,6 +1312,66 @@
             "name": "淘片",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "1号接口",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "2号接口",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "3号接口",
+            "type": 0,
+            "url": "https://jx.789jiexi.net:4433/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "4号接口",
+            "type": 0,
+            "url": "https://www.playm3u8.cn/jiexi.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "5号接口",
+            "type": 0,
+            "url": "https://www.8090g.cn/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "6号接口",
+            "type": 0,
+            "url": "https://z1.m1907.top/?jx=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 9; DUK-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
