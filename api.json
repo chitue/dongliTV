@@ -84,24 +84,6 @@
             }
         },
         {
-            "key": "摸鱼电视",
-            "name": "🌇｜摸鱼｜电视",
-            "type": 4,
-            "api": "https://ck.wya6.cn/Live/tv.php",
-            "searchable": 1,
-            "header": {
-                "token": "moyufucking"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.99
-            },
-            "categories": [
-                "央卫V4",
-                "4K频道"
-            ]
-        },
-        {
             "key": "wogg",
             "name": "💗｜玩偶｜网盘",
             "type": 3,
@@ -150,9 +132,14 @@
             "changeable": 0,
             "ext": {
                 "site": [
-                    "https://www.labi88.sbs",
+                    "http://xiaocge.fun",
+                    "http://feimo.fun",
                     "https://feimao666.fun",
-                    "http://feimao888.fun"
+                    "http://feimao888.fun",
+                    "http://www.labi88.sbs",
+                    "http://fmao.site",
+                    "http://fmao.shop",
+                    "http://xiaocgege.shop"
                 ]
             }
         },
@@ -382,31 +369,6 @@
             "filterable": 1
         },
         {
-            "key": "白鸽",
-            "name": "🧡｜白鸽｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://cy.baige.asia",
-                "dataKey": "599D0FE5178642FD",
-                "dataIv": "599D0FE5178642FD"
-            }
-        },
-        {
-            "key": "茉莉",
-            "name": "🧡｜茉莉｜APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
-                "dataKey": "88689667dce61725",
-                "dataIv": "88689667dce61725"
-            }
-        },
-        {
             "key": "灵虎",
             "name": "🧡｜灵虎｜APP",
             "type": 3,
@@ -417,19 +379,6 @@
                 "dataKey": "#getapp@TMD@2025",
                 "dataIv": "#getapp@TMD@2025",
                 "version": "120"
-            }
-        },
-        {
-            "key": "魔方",
-            "name": "🧡｜魔方｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.613mf4k12.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321"
             }
         },
         {
@@ -861,18 +810,6 @@
                 "url": "http://cic.aicg.fun",
                 "dataKey": "2c4h36abd96se10u",
                 "dataIv": "2c4h36abd96se10u"
-            }
-        },
-        {
-            "key": "番薯动漫",
-            "name": "🌸｜番薯丨动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://new.app.bytegooty.com",
-                "dataKey": "N4yj7l7xKxHF4*gz",
-                "dataIv": "N4yj7l7xKxHF4*gz"
             }
         },
         {
