@@ -746,18 +746,6 @@
             "changeable": 1
         },
         {
-            "key": "丫丫动漫",
-            "name": "🌸｜丫丫｜动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://tv.yy-fun.cc",
-                "dataKey": "qkxnwkfjwpcnwycl",
-                "dataIv": "qkxnwkfjwpcnwycl"
-            }
-        },
-        {
             "key": "方舟动漫",
             "name": "🌸｜方舟丨动漫",
             "type": 3,
