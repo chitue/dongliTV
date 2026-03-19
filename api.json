@@ -356,6 +356,34 @@
             }
         },
         {
+            "key": "腾腾视频",
+            "name": "🎇｜腾腾｜解析",
+            "type": 3,
+            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
+        },
+        {
+            "key": "酷酷视频",
+            "name": "🎇｜酷酷｜解析",
+            "type": 3,
+            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/YKSP.js"
+        },
+        {
+            "key": "果果视频",
+            "name": "🎇｜果果｜解析",
+            "type": 3,
+            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/MGSP.js"
+        },
+        {
+            "key": "奇奇视频",
+            "name": "🎇｜奇奇｜解析",
+            "type": 3,
+            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/AQY.js"
+        },
+        {
             "key": "360影视",
             "name": "🎇｜六零｜影视",
             "type": 3,
@@ -1225,6 +1253,50 @@
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "develop202",
+            "type": 0,
+            "url": "https://gongdian.top/tv/develop202",
+            "playerType": 1
+        },
+        {
+            "name": "酒店源",
+            "type": 0,
+            "url": "https://gongdian.top/tv/guovin",
+            "playerType": 1,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+        },
+        {
+            "name": "webview源",
+            "type": 0,
+            "url": "https://gongdian.top/tv/webvideo.txt",
+            "playerType": 1,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+        },
+        {
+            "name": "斗鱼一起看",
+            "type": 0,
+            "url": "https://gongdian.top/tv/Mursor/douyuyqk.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "虎牙一起看",
+            "type": 0,
+            "url": "https://gongdian.top/tv/Mursor/huyayqk.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "哔哩live",
+            "type": 0,
+            "url": "https://gongdian.top/tv/Mursor/bililive.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "YY轮播",
+            "type": 0,
+            "url": "https://gongdian.top/tv/Mursor/yylunbo.m3u",
+            "playerType": 1
         }
     ],
     "parses": [
