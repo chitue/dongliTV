@@ -1216,7 +1216,7 @@
             "logo": "https://gongdian.top/tv/taibiao/{name}.png"
         },
         {
-            "name": "咪咕",
+            "name": "develop202",
             "type": "0",
             "pass": true,
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
@@ -1248,12 +1248,6 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "develop202",
-            "type": 0,
-            "url": "https://gongdian.top/tv/develop202",
-            "playerType": 1
-        },
-        {
             "name": "酒店源",
             "type": 0,
             "url": "https://gongdian.top/tv/guovin",
@@ -1261,35 +1255,20 @@
             "logo": "https://gongdian.top/tv/taibiao/{name}.png"
         },
         {
-            "name": "webview源",
-            "type": 0,
-            "url": "https://gongdian.top/tv/webvideo.txt",
-            "playerType": 1,
-            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+            "name": "游魂",
+            "type": "0",
+            "pass": true,
+            "url": "https://www.iyouhun.com/tv/zb",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "斗鱼一起看",
-            "type": 0,
-            "url": "https://gongdian.top/tv/Mursor/douyuyqk.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 0,
-            "url": "https://gongdian.top/tv/Mursor/huyayqk.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "哔哩live",
-            "type": 0,
-            "url": "https://gongdian.top/tv/Mursor/bililive.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "YY轮播",
-            "type": 0,
-            "url": "https://gongdian.top/tv/Mursor/yylunbo.m3u",
-            "playerType": 1
+            "name": "YanG",
+            "type": "0",
+            "pass": true,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
     "parses": [
