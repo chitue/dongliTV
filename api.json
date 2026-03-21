@@ -1269,6 +1269,14 @@
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "suxuang",
+            "type": "0",
+            "pass": true,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
     "parses": [
