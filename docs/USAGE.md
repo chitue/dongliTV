@@ -9,11 +9,9 @@ https://pan.baidu.com/s/13JGvmZlFIqJblaDFRGthVQ?pwd=2026
 https://pan.xunlei.com/s/VOkvcQ2Pcn41Bh4gxAgyXggiA1?pwd=v5z7
 
 OK影视配置接口地址：
-内部接口
-https://dongli.s3.bitiful.net/api
-备用接口1:
+接口1:
 https://16151.kstore.space
-备用接口2
+接口2
 https://chigua.eu.org
 
 接口适用软件：
@@ -120,16 +118,3 @@ https://dongli.s3.bitiful.net/api
 也可以先在手机上登录网盘然后在配置中心登录凯速，将cookie备份到凯速，然后在电视上登录凯速一键恢复cookie。
 
 接口是自己开发维护的，有什么需求或者问题可以提，我会看情况适配或者解答。
-
-
-
-
-安卓4接口
-
-http://肥猫.com
-
-
-注意：
-配置中心登录一下百度夸克和UC，提示已登录就退出重新登录
-
-
