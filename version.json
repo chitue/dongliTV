@@ -1,9 +1,9 @@
 {
-  "versionName": "1.0.98",
-  "versionCode": 10098,
-  "url": "https://github.com/chitue/dongliTV/releases/download/v1.0.98/dongliTV-v1.0.98.zip",
-  "size": 6755602,
-  "sha256": "9dbb675aae8c85a269cc31f904ef87f04a88f966b7228ed915c98fdb6add36e2",
+  "versionName": "1.1.00",
+  "versionCode": 10100,
+  "url": "https://github.com/chitue/dongliTV/releases/download/v1.1.00/dongliTV-v1.1.00.zip",
+  "size": 6745334,
+  "sha256": "0bbaf5e3149052c8dba0b65295e2b7ef08c97ec5aa8cff559b82ae3490991d74",
   "updateDate": "2026-03-23",
   "releaseNotes": "修复已知问题，提升稳定性"
 }
