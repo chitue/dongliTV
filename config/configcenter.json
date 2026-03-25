@@ -47,24 +47,7 @@
         ]
     },
     {
-        "name": "哔哩",
-        "list": [
-            {
-                "name": "退出登录",
-                "key": "cleanBilibiliCookie",
-                "icon": "",
-                "des": "清除cookie"
-            },
-            {
-                "name": "登录",
-                "key": "setBilibiliCookie",
-                "icon": "",
-                "des": "设置cookie"
-            }
-        ]
-    },
-    {
-        "name": "百度",
+        "name": "百度网盘",
         "list": [
             {
                 "name": "注册",
@@ -105,7 +88,7 @@
         ]
     },
     {
-        "name": "夸氪",
+        "name": "夸克网盘",
         "list": [
             {
                 "name": "注册",
@@ -146,7 +129,7 @@
         ]
     },
     {
-        "name": "优囍",
+        "name": "UC网盘",
         "list": [
             {
                 "name": "注册",
@@ -160,7 +143,6 @@
                 "icon": "",
                 "des": "🎉免费1T永久空间限领1次"
             },
-            
             {
                 "name": "退出登录",
                 "key": "cleanUcCookie",
@@ -194,7 +176,7 @@
         ]
     },
     {
-        "name": "阿里",
+        "name": "阿里云盘",
         "list": [
             {
                 "name": "退出登录",
@@ -229,7 +211,7 @@
         ]
     },
     {
-        "name": "天懿",
+        "name": "天翼云盘",
         "list": [
             {
                 "name": "退出登录",
@@ -252,7 +234,7 @@
         ]
     },
     {
-        "name": "壹贰叁",
+        "name": "123云盘",
         "list": [
             {
                 "name": "退出登录",
@@ -281,7 +263,24 @@
         ]
     },
     {
-        "name": "数据库",
+        "name": "哔哩哔哩",
+        "list": [
+            {
+                "name": "退出登录",
+                "key": "cleanBilibiliCookie",
+                "icon": "",
+                "des": "清除cookie"
+            },
+            {
+                "name": "登录",
+                "key": "setBilibiliCookie",
+                "icon": "",
+                "des": "设置cookie"
+            }
+        ]
+    },
+    {
+        "name": "SQLite数据库",
         "list": [
             {
                 "name": "本地数据库映射配置",
