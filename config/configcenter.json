@@ -176,6 +176,29 @@
         ]
     },
     {
+        "name": "迅雷云盘",
+        "list": [
+            {
+                "name": "退出登录",
+                "key": "cleanXunleiCookie",
+                "icon": "",
+                "des": "清除cookie"
+            },
+            {
+                "name": "登录",
+                "key": "setXunleiCookie",
+                "icon": "",
+                "des": "设置Cookie"
+            },
+            {
+                "name": "多线程",
+                "key": "setXunleiMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
         "name": "阿里云盘",
         "list": [
             {

@@ -406,19 +406,7 @@
             "searchable": 1,
             "filterable": 1
         },
-        {
-            "key": "魔方",
-            "name": "💓｜魔方｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://alibaba31casaq.top/",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321"
-            }
-        },
+        
         {
             "key": "云朵",
             "name": "💓｜云朵｜APP",
@@ -702,14 +690,6 @@
             "filterable": 1
         },
         {
-            "key": "wuwei",
-            "name": "📚｜六月｜听书",
-            "type": 3,
-            "api": "csp_WuWeiTing",
-            "changeable": 0,
-            "filterable": 1
-        },
-        {
             "key": "bilibili",
             "name": "🌈｜哔哩｜合集",
             "type": 3,
@@ -923,7 +903,6 @@
                 "type": "list"
             }
         },
-        
         {
             "key": "方舟动漫",
             "name": "🌸｜方舟丨动漫",
@@ -972,7 +951,6 @@
                 "dataIv": "nKfZ8KX6JTNWRzTD"
             }
         },
-        
         {
             "key": "DmBus",
             "name": "🌸｜巴士｜动漫",
@@ -1094,6 +1072,22 @@
             },
             "timeout": 30,
             "ext": "./config/mybaidu.json"
+        },
+        {
+            "key": "myxunlei",
+            "name": "❤️｜我的┃迅雷",
+            "type": 3,
+            "api": "csp_MyXunlei",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30,
+            "ext": "./config/myxunlei.json"
         },
         {
             "key": "myali",
@@ -1222,6 +1216,21 @@
             "ext": {
                 "sources": [
                     "UC"
+                ]
+            }
+        },
+        {
+            "key": "PanSouXunlei",
+            "name": "㊣｜迅雷┃盘搜",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "hide": 1,
+            "ext": {
+                "sources": [
+                    "迅雷"
                 ]
             }
         },
