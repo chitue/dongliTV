@@ -406,7 +406,6 @@
             "searchable": 1,
             "filterable": 1
         },
-        
         {
             "key": "云朵",
             "name": "💓｜云朵｜APP",
@@ -902,6 +901,50 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "csp_XYQHiker_兔小贝",
+            "name": "🐰｜小贝｜儿歌",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/%E5%85%94%E5%B0%8F%E8%B4%9D.json",
+            "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
+        },
+        {
+            "key": "csp_XYQHiker_兔小贝2",
+            "name": "🐰｜贝贝｜儿歌",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/%E5%85%94%E5%B0%8F%E8%B4%9D2.json",
+            "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
+        },
+        {
+            "key": "电影港",
+            "name": "🧲｜影港｜磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar",
+            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/magnet/json/DYG.json"
+        },
+        {
+            "key": "csp_XYQHiker_age动漫",
+            "name": "☄️｜AGE｜动漫",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/age%E5%8A%A8%E6%BC%AB.json",
+            "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
         },
         {
             "key": "方舟动漫",
