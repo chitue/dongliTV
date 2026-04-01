@@ -14,6 +14,11 @@ api                     export-ignore
 ./api                   export-ignore
 *api                    export-ignore
 /api                    export-ignore
+uz                     export-ignore
+./uz                   export-ignore
+*uz                    export-ignore
+/uz                    export-ignore
+
 
 # ====== 排除根目录下的 bin/ 目录 ======
 bin/             export-ignore
