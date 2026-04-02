@@ -420,19 +420,6 @@
             }
         },
         {
-            "key": "不错",
-            "name": "💓｜不错｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://zbc4kmcs.zbc4k.app",
-                "dataKey": "vE4kR7cF6jS6jH7a",
-                "dataIv": "vE4kR7cF6jS6jH7a"
-            }
-        },
-        {
             "key": "星空",
             "name": "💓｜星空｜APP",
             "type": 3,
@@ -924,7 +911,6 @@
             "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/%E5%85%94%E5%B0%8F%E8%B4%9D2.json",
             "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
         },
-        
         {
             "key": "csp_XYQHiker_age动漫",
             "name": "☄️｜AGE｜动漫",
