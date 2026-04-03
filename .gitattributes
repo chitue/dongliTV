@@ -23,6 +23,8 @@ uz                     export-ignore
 # ====== 排除根目录下的 bin/ 目录 ======
 bin/             export-ignore
 ./bin/           export-ignore
+js/online/             export-ignore
+./js/online/           export-ignore
 
 # ====== IDE和编辑器配置 ======
 .vscode/                export-ignore

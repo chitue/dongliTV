@@ -359,29 +359,29 @@
             "key": "腾腾视频",
             "name": "🎇｜腾腾｜解析",
             "type": 3,
-            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
+            "api": "https://chigua.eu.org/js/online/drpy2.min.js",
+            "ext": "https://chigua.eu.org/js/online/tx.js"
         },
         {
             "key": "酷酷视频",
             "name": "🎇｜酷酷｜解析",
             "type": 3,
-            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/YKSP.js"
+            "api": "https://chigua.eu.org/js/online/drpy2.min.js",
+            "ext": "https://chigua.eu.org/js/online/yk.js"
         },
         {
             "key": "果果视频",
             "name": "🎇｜果果｜解析",
             "type": 3,
-            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/MGSP.js"
+            "api": "https://chigua.eu.org/js/online/drpy2.min.js",
+            "ext": "https://chigua.eu.org/js/online/mg.js"
         },
         {
             "key": "奇奇视频",
             "name": "🎇｜奇奇｜解析",
             "type": 3,
-            "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/AQY.js"
+            "api": "https://chigua.eu.org/js/online/drpy2.min.js",
+            "ext": "https://chigua.eu.org/js/online/aqy.js"
         },
         {
             "key": "360影视",
@@ -417,32 +417,6 @@
                 "url": "https://yd4kcms.yd4k.top",
                 "dataKey": "Tpmm9FD99lJ8Dexa",
                 "dataIv": "Tpmm9FD99lJ8Dexa"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "💓｜星空｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://xkos1.xkgzs.xyz",
-                "dataKey": "77jkcdvdodfcdkjk",
-                "dataIv": "77jkcdvdodfcdkjk"
-            }
-        },
-        {
-            "key": "火狐",
-            "name": "💓｜火狐｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://huohu.yihn.cc",
-                "dataKey": "huohushipingetap",
-                "dataIv": "huohushipingetap"
             }
         },
         {
@@ -558,21 +532,6 @@
                 "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
                 "dataKey": "UrWKPnmQWJA8AQzd",
                 "dataIv": "UrWKPnmQWJA8AQzd",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "蓝鹰",
-            "name": "💓｜蓝鹰｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "init": "initV120",
                 "ua": "okhttp/3.10.0"
             }
         },
