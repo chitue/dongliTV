@@ -144,16 +144,28 @@
                 "des": "🎉免费1T永久空间限领1次"
             },
             {
-                "name": "退出登录",
+                "name": "PC版登录",
+                "key": "setUcCookie",
+                "icon": "",
+                "des": "超级会员只需要登录PC版"
+            },
+            {
+                "name": "TV版登录",
+                "key": "setUcTvCookie",
+                "icon": "",
+                "des": "普通用户需要同时登录PC版和TV版"
+            },
+            {
+                "name": "PC版退出",
                 "key": "cleanUcCookie",
                 "icon": "",
                 "des": "清除Cookie"
             },
             {
-                "name": "登录",
-                "key": "setUcCookie",
+                "name": "TV版退出",
+                "key": "cleanUcTvCookie",
                 "icon": "",
-                "des": "设置Cookie"
+                "des": "清除Cookie"
             },
             {
                 "name": "多线程",
