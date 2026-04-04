@@ -1,6 +1,6 @@
 [
-  {
-    "name": "Tangsan",
-    "server": "smb://192.168.0.1/Users"
-  }
+    {
+        "name": "dongli",
+        "server": "smb://shan:du2026@192.168.100.111/movies"
+    }
 ]
