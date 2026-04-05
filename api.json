@@ -13,28 +13,6 @@
             "filterable": 1
         },
         {
-            "key": "WebDAV",
-            "name": "🍺┃Web┃DAV",
-            "type": 3,
-            "api": "csp_WebDAV",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 60,
-            "playerType": 2
-        },
-        {
-            "key": "Samba",
-            "name": "📁┃Samba┃共享",
-            "type": 3,
-            "api": "csp_Samba",
-            "searchable": 0,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "playerType": 1
-        },
-        {
             "key": "配置",
             "name": "⚔️｜配置｜中心",
             "type": 3,
@@ -429,32 +407,6 @@
             "filterable": 1
         },
         {
-            "key": "云朵",
-            "name": "💓｜云朵｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://yd4kcms.yd4k.top",
-                "dataKey": "Tpmm9FD99lJ8Dexa",
-                "dataIv": "Tpmm9FD99lJ8Dexa"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "💓｜星空｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://xkos1.xkgzs.xyz",
-                "dataKey": "77jkcdvdodfcdkjk",
-                "dataIv": "77jkcdvdodfcdkjk"
-            }
-        },
-        {
             "key": "火狐",
             "name": "💓｜火狐｜APP",
             "type": 3,
@@ -580,21 +532,6 @@
                 "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
                 "dataKey": "UrWKPnmQWJA8AQzd",
                 "dataIv": "UrWKPnmQWJA8AQzd",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "蓝鹰",
-            "name": "💓｜蓝鹰｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "init": "initV120",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -1032,6 +969,26 @@
             "searchable": 0,
             "changeable": 0,
             "api": "csp_Local"
+        },
+        {
+            "key": "WebDAV",
+            "name": "🗂️┃Web┃DAV",
+            "type": 3,
+            "api": "csp_WebDAV",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "Samba",
+            "name": "🗂️┃SMB┃共享",
+            "type": 3,
+            "api": "csp_Samba",
+            "searchable": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "timeout": 30
         },
         {
             "key": "localdb",
