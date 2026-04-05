@@ -315,6 +315,23 @@
         ]
     },
     {
+        "name": "网络存储",
+        "list": [
+            {
+                "name": "配置",
+                "key": "nsConfig",
+                "icon": "",
+                "des": "指定配置文件"
+            },
+            {
+                "name": "多线程",
+                "key": "networkStorageMultiThread",
+                "icon": "",
+                "des": "网络存储多线程设置"
+            }
+        ]
+    },
+    {
         "name": "SQLite数据库",
         "list": [
             {

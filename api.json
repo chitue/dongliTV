@@ -21,8 +21,7 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 60,
-            "playerType": 2,
-            "ext": "./json/webdav.json"
+            "playerType": 2
         },
         {
             "key": "Samba",
@@ -33,8 +32,7 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 30,
-            "playerType": 1,
-            "ext": "./json/samba.json"
+            "playerType": 1
         },
         {
             "key": "配置",
