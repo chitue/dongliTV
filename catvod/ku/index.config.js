@@ -71,7 +71,7 @@ var index_config_default = {
     autoPush: true
   },
  t4: {list: [
-    {name: "✈️关注TG频道@stymei",
+    {name: "独播库",
       address: "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
     {name: "📡IPTV直播",
       address: "https://iptv.jsnzkpg.uk"},
