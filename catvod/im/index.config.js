@@ -201,7 +201,14 @@ var index_config_default = {
     {
       name: "裤",
       url: "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
-      ua: "okhttp/3.15",
+      ua: "",
+      enabled: true,
+      logoUrl: ""
+    },
+    {
+      name: "宫",
+      url: "https://gongdian.top/tv/iptv",
+      ua: "okhttp/5.3.2",
       enabled: true,
       logoUrl: ""
     }
