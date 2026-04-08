@@ -199,8 +199,8 @@ var index_config_default = {
   ],
   live: [
     {
-      name: "",
-      url: "",
+      name: "裤",
+      url: "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
       ua: "okhttp/3.15",
       enabled: true,
       logoUrl: ""
