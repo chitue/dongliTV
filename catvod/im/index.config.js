@@ -180,7 +180,9 @@ var index_config_default = {
         autoPushBlacklist: ["bili_all", "fanqie", "liuyueting", "88kanqiu", "live"]
     },
     t4: {
-        list: []
+        list: [{name: "📡IPTV直播",
+      address: "https://iptv.jsnzkpg.uk"}
+    ]
     },
     cms: {
         list: []
