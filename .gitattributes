@@ -25,6 +25,9 @@ bin/             export-ignore
 ./bin/           export-ignore
 js/online/             export-ignore
 ./js/online/           export-ignore
+catvod/             export-ignore
+./catvod/           export-ignore
+
 
 # ====== IDE和编辑器配置 ======
 .vscode/                export-ignore
