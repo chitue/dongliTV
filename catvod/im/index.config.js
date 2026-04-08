@@ -218,13 +218,39 @@ var index_config_default = {
             enablePlaybackReport: false
         }
     ],
-    live: [{
-        name: "裤",
-        url: "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
-        ua: "",
-        enabled: true,
-        logoUrl: ""
-    }],
+
+    //直播
+    live: {
+        url: [{
+                name: "裤",
+                url: "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
+
+            },
+            {
+                "name": "b站",
+                "url": "https://sub.ottiptv.cc/bililive.m3u",
+                "ua": "AptvPlayer-UA"
+            },
+            {
+                "name": "iptv",
+                "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u"
+            },
+            {
+                "name": "虎牙",
+                "url": "https://sub.ottiptv.cc/huyayqk.m3u"
+            },
+            {
+                "name": "斗鱼",
+                "url": "https://sub.ottiptv.cc/douyuyqk.m3u"
+            },
+            {
+                "name": "轮播",
+                "url": "https://sub.ottiptv.cc/yylunbo.m3u"
+            }
+        ]
+    },
+
+
     alist: [{
         name: "测试",
         server: "http://118.122.130.22:5678",
