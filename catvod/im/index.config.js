@@ -198,24 +198,10 @@ var index_config_default = {
     }
   ],
   live: [
-   {
-      name: "Guovin",
-      url: "https://gh-proxy.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      ua: "okhttp",
-      enabled: true,
-      logoUrl: ""
-    },
      {
       name: "裤佬",
       url: "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg1",
-      ua: "okhttp",
-      enabled: true,
-      logoUrl: ""
-    },
-    {
-      name: "宫殿",
-      url: "https://gongdian.top/tv/iptv",
-      ua: "okhttp/5.3.2",
+      ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
       enabled: true,
       logoUrl: ""
     }
