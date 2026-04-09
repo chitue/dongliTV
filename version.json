@@ -1,9 +1,9 @@
 {
-  "versionName": "2026.04.08.2344",
-  "versionCode": 1776669315,
-  "url": "https://github.com/chitue/dongliTV/releases/download/v2026.04.08.2344/dongliTV-v2026.04.08.2344.zip",
-  "size": 6886592,
-  "sha256": "0785fb687ba962bcd7dc20b6ccf72b98db1e10948795f5a9a2c09e06d5eae467",
-  "updateDate": "2026-04-08",
+  "versionName": "2026.04.10.0240",
+  "versionCode": 1776758254,
+  "url": "https://github.com/chitue/dongliTV/releases/download/v2026.04.10.0240/dongliTV-v2026.04.10.0240.zip",
+  "size": 6827647,
+  "sha256": "99d47c695296b241d65e7fe6622d730cc0b762765686ef1ae733ba8f299cb586",
+  "updateDate": "2026-04-09",
   "releaseNotes": "修复已知问题，提升稳定性"
 }
