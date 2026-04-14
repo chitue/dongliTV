@@ -26,62 +26,73 @@
             "ext": "./config/configcenter.json"
         },
         {
-            "key": "Huya",
-            "name": "🌇｜虎牙｜直播",
+            "key": "盼她",
+            "name": "💥｜盼她｜免扫",
             "type": 3,
-            "api": "csp_Huya",
-            "searchable": 0,
-            "quickSearch": 0,
+            "api": "csp_PanTa",
+            "searchable": 1,
+            "filterable": 0,
             "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
             "style": {
-                "type": "rect",
-                "ratio": 1.433
+                "type": "list"
             }
         },
         {
-            "key": "Douyu",
-            "name": "🌇｜斗鱼｜直播",
+            "key": "金牌影视",
+            "name": "💥｜金牌｜影视",
             "type": 3,
-            "api": "csp_Douyu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
+            "api": "csp_Glod",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "https://m.610pkea.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+        },
+        {
+            "key": "guazi",
+            "name": "💥｜瓜子 | 影视",
+            "type": 3,
+            "api": "csp_Guazi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "jianpian",
+            "name": "💥｜荐片｜P2P",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "./config/jianpian.json"
+        },
+        {
+            "key": "Xb6v",
+            "name": "💥｜新6V｜磁力",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "热播影视",
+            "name": "💥｜热播｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "site": [
+                    "http://v.rbotv.cn"
+                ]
             }
         },
         {
-            "key": "KuaiShou",
-            "name": "🌇｜快手｜直播",
+            "key": "XinHan",
+            "name": "💥｜韩剧｜影视",
             "type": 3,
-            "api": "csp_KuaiShou",
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "BiliLive",
-            "name": "🌇｜哔哩｜直播",
-            "type": 3,
-            "api": "csp_BiliLive",
+            "api": "csp_XinHan",
             "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 10,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
+            "filterable": 1
         },
         {
             "key": "wogg",
@@ -285,18 +296,6 @@
             "ext": {}
         },
         {
-            "key": "盘它",
-            "name": "💗｜盘它｜网盘",
-            "type": 3,
-            "api": "csp_PanTa",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "人人",
             "name": "💗｜人人｜网盘",
             "type": 3,
@@ -308,7 +307,7 @@
         },
         {
             "key": "FourKZn",
-            "name": "💗｜4K指南｜网盘",
+            "name": "💗｜指南｜网盘",
             "type": 3,
             "api": "csp_FourKZn",
             "searchable": 1,
@@ -316,43 +315,61 @@
             "changeable": 0
         },
         {
-            "key": "金牌影视",
-            "name": "💥｜金牌｜影视",
+            "key": "Huya",
+            "name": "🌇｜虎牙｜直播",
             "type": 3,
-            "api": "csp_Glod",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "https://m.610pkea.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-        },
-        {
-            "key": "guazi",
-            "name": "💥｜瓜子 | 影视",
-            "type": 3,
-            "api": "csp_Guazi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {}
-        },
-        {
-            "key": "XinHan",
-            "name": "💥｜韩剧｜影视",
-            "type": 3,
-            "api": "csp_XinHan",
+            "api": "csp_Huya",
             "searchable": 0,
-            "filterable": 1
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
         },
         {
-            "key": "热播影视",
-            "name": "💥｜热播｜影视",
+            "key": "Douyu",
+            "name": "🌇｜斗鱼｜直播",
             "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "site": [
-                    "http://v.rbotv.cn"
-                ]
+            "api": "csp_Douyu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "KuaiShou",
+            "name": "🌇｜快手｜直播",
+            "type": 3,
+            "api": "csp_KuaiShou",
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "BiliLive",
+            "name": "🌇｜哔哩｜直播",
+            "type": 3,
+            "api": "csp_BiliLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
             }
         },
         {
@@ -388,23 +405,6 @@
             "name": "🎇｜六零｜影视",
             "type": 3,
             "api": "csp_SP360"
-        },
-        {
-            "key": "jianpian",
-            "name": "🎇｜荐片｜P2P",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "./config/jianpian.json"
-        },
-        {
-            "key": "Xb6v",
-            "name": "🎇｜新6V｜磁力",
-            "type": 3,
-            "api": "csp_Xb6v",
-            "searchable": 1,
-            "filterable": 1
         },
         {
             "key": "火狐",
@@ -507,21 +507,6 @@
             }
         },
         {
-            "key": "爱盈",
-            "name": "💓｜爱盈｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
-                "dataKey": "sjvlwnhk6h9znl61",
-                "dataIv": "sjvlwnhk6h9znl61",
-                "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "优兔",
             "name": "💓｜优兔｜APP",
             "type": 3,
@@ -533,17 +518,6 @@
                 "dataKey": "UrWKPnmQWJA8AQzd",
                 "dataIv": "UrWKPnmQWJA8AQzd",
                 "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "小羊",
-            "name": "💓｜小羊｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://qjappcms410.xy4k.com",
-                "dataKey": "mC6kG4mI1uM8tS4o",
-                "dataIv": "mC6kG4mI1uM8tS4o"
             }
         },
         {
@@ -891,18 +865,6 @@
                 "url": "https://www.cyfz.top",
                 "dataKey": "e72cdfd629e8895d",
                 "dataIv": "e72cdfd629e8895d"
-            }
-        },
-        {
-            "key": "元咲动漫",
-            "name": "🌸｜元咲丨动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://cic.aicg.fun",
-                "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u"
             }
         },
         {
