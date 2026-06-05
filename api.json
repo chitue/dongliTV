@@ -833,6 +833,16 @@
                 "type": "list"
             }
         },
+            {
+            "key": "瓜子体育",
+            "name": "⚽｜瓜子｜体育",
+            "type": 3,
+            "api": "csp_GuaziTY",
+            "style": {
+                "type": "list"
+            }
+        },
+    
         {
             "key": "csp_XYQHiker_兔小贝",
             "name": "🐰｜小贝｜儿歌",
