@@ -1,0 +1,31 @@
+{
+  "package": "mediaproxy",
+  "version": "1.0.8",
+  "description": "linux",
+  "created": "2025-12-30T18:05:51+0800",
+  "binaries": {
+    "arm64-v8a": {
+      "path": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/15A9A61_773_mparm64linux_20251230184859839newMediaFile.png",
+      "size": 5832704,
+      "sha256": "373a010a19d0224393b407f44db9ce292c4db0f7bcadf10c6b027db4128a9940"
+    }
+    ,
+    "armeabi-v7a": {
+      "path": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/5DFCD6B_773_mparmlinux_20251230184917980newMediaFile.png",
+      "size": 6029312,
+      "sha256": "582c40f45338ef8c86b430e214faa6752984620f66ac5c946a164258afd69216"
+    }
+    ,
+    "x86_64": {
+      "path": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/26D51A1_773_mpx64linux_20251230184935694newMediaFile.png",
+      "size": 6197248,
+      "sha256": "20f823f8412b8356b47319c7470621989b182dd7d843f80ce3149c935f4c1661"
+    }
+    ,
+    "x86": {
+      "path": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3C4620E_773_mpx86linux_20251230184953770newMediaFile.png",
+      "size": 5935104,
+      "sha256": "73583923a893379984fc8589b8e3f47c4574fa631301868df3e94702d3072fb3"
+    }
+  }
+}
