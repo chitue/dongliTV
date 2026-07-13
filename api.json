@@ -26,18 +26,6 @@
             "ext": "./config/configcenter.json"
         },
         {
-            "key": "盼她",
-            "name": "💥｜盼她｜免扫",
-            "type": 3,
-            "api": "csp_PanTa",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "金牌影视",
             "name": "💥｜金牌｜影视",
             "type": 3,
@@ -85,14 +73,6 @@
                     "http://v.rbotv.cn"
                 ]
             }
-        },
-        {
-            "key": "XinHan",
-            "name": "💥｜韩剧｜影视",
-            "type": 3,
-            "api": "csp_XinHan",
-            "searchable": 0,
-            "filterable": 1
         },
         {
             "key": "wogg",
@@ -240,25 +220,25 @@
             "changeable": 0,
             "ext": {
                 "site": [
-                    "http://103.45.162.207:20720"
+                    "http://38.76.197.172:16969"
                 ]
             }
         },
         {
-            "key": "闪电",
-            "name": "💗｜闪电｜网盘",
+            "key": "老张",
+            "name": "💗｜老张｜网盘",
             "type": 3,
             "api": "csp_MacCMS",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 0,
+            "changeable": 1,
             "ext": {
                 "site": [
-                    "https://shandian.blog",
-                    "https://sd.sduc.site"
+                    "https://duanmu.laozhangone.top"
                 ]
-            }
+            },
+            "timeout": 60
         },
         {
             "key": "小飒",
@@ -373,6 +353,18 @@
             }
         },
         {
+            "key": "哔哩直播py",
+            "name": "🌇｜哔哩｜直播",
+            "type": 3,
+            "api": "https://chigua.eu.org/py/哔哩直播.py"
+        },
+        {
+            "key": "网络直播",
+            "name": "🌇｜网络｜直播",
+            "type": 3,
+            "api": "https://chigua.eu.org/py/网络直播.py"
+        },
+        {
             "key": "腾腾视频",
             "name": "🎇｜腾腾｜解析",
             "type": 3,
@@ -433,12 +425,48 @@
             }
         },
         {
+            "key": "天堂",
+            "name": "🍀｜天堂｜采集",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+            "searchable": 1,
+            "changeable": 0,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "记录片",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "短剧",
+                "动画片"
+            ]
+        },
+        {
             "key": "360资源",
             "name": "🍀｜360｜采集",
             "type": 1,
             "api": "https://360zy.com/api.php/seaxml/vod/",
             "searchable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "categories": [
                 "国产动漫",
                 "日韩动漫",
@@ -516,7 +544,7 @@
             "type": 1,
             "api": "https://cj.lziapi.com/api.php/provide/vod/",
             "searchable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "categories": [
                 "国产动漫",
                 "日韩动漫",
@@ -572,15 +600,6 @@
             "filterable": 1
         },
         {
-            "key": "JuWang",
-            "name": "🌟｜剧王｜短剧",
-            "type": 3,
-            "api": "csp_JuWang",
-            "searchable": 0,
-            "changeable": 0,
-            "filterable": 1
-        },
-        {
             "key": "七星短剧",
             "name": "🌟丨七星丨短剧",
             "type": 3,
@@ -589,6 +608,17 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "星芽短剧",
+            "name": "🌟丨星芽丨短剧",
+            "type": 3,
+            "api": "https://chigua.eu.org/py/星芽短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
         },
         {
             "key": "xiqu",
@@ -616,23 +646,10 @@
             "ext": ""
         },
         {
-            "key": "AiWan",
-            "name": "♦｜爱玩｜音乐",
+            "key": "爱听音乐py",
+            "name": "♦｜爱听｜音乐",
             "type": 3,
-            "api": "csp_AiWan",
-            "searchable": 1,
-            "changeable": 0,
-            "filterable": 1
-        },
-        {
-            "key": "爱听音乐",
-            "name": "♦｜爱听丨音乐",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/b3284feb00815ddd5d7e71e1468d9cf1.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "https://chigua.eu.org/py/爱听音乐.py"
         },
         {
             "key": "tingchina",
@@ -1135,62 +1152,6 @@
                 "ratio": 1.1
             },
             "ext": "./config/market.json"
-        },
-        {
-            "key": "TgAliSearch",
-            "name": "㊣｜夸克｜TG搜",
-            "type": 3,
-            "api": "csp_TgSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "hide": 1,
-            "filterable": 0,
-            "ext": {
-                "site": "https://tgsou.252035.xyz/",
-                "query": "channelUsername=alyp_1,clouddriveresources,dianyingshare,hdhhd21,jdjdn1111,leoziyuan,NewQuark,PanjClub,Quark_Movies,xiangxiunb,yunpanchat,yunpanqk,XiangxiuNB,alyp_4K_Movies,alyp_Animation,alyp_TV,alyp_JLP&pic=true"
-            }
-        },
-        {
-            "key": "TgbaiduSearch",
-            "name": "㊣｜百度｜TG搜",
-            "type": 3,
-            "api": "csp_TgSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "hide": 1,
-            "filterable": 0,
-            "ext": {
-                "site": "https://tgsou.252035.xyz/",
-                "query": "channelUsername=BaiduCloudDisk,bdwpzhpd,Baidu_Netdisk&pic=true"
-            }
-        },
-        {
-            "key": "Tg123Search",
-            "name": "㊣｜123｜TG搜",
-            "type": 3,
-            "api": "csp_TgSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "hide": 1,
-            "filterable": 0,
-            "ext": {
-                "site": "https://tgsou.252035.xyz/",
-                "query": "channelUsername=wp123zy,xx123pan,yp123pan,zyfb123&pic=true"
-            }
-        },
-        {
-            "key": "Tg189Search",
-            "name": "㊣｜天翼｜TG搜",
-            "type": 3,
-            "api": "csp_TgSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "hide": 1,
-            "filterable": 0,
-            "ext": {
-                "site": "https://tgsou.252035.xyz/",
-                "query": "channelUsername=cloud189_group,yunpan139,cloud189_group,cloudtianyi,kuakeclound,tianyirigeng,txtyzy,tyypzhpd,tyysypzypd,yunpan189&pic=true"
-            }
         },
         {
             "key": "PanSouQuark",
